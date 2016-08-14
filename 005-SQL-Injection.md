@@ -141,6 +141,10 @@ else:
 - [sqlmap](http://sqlmap.org/)
 - [sqlninja](http://sqlninja.sourceforge.net/)
 
+## 小試身手
+
+有興趣的讀者可以在 [https://github.com/Inndy/super-simple-vulnerable-guestbook](https://github.com/Inndy/super-simple-vulnerable-guestbook) 下載到具有 SQL Injection 漏洞的留言板系統進行測試。
+
 ## 解決方式
 
 1. 使用 ORM，如：[LazyRecord](https://github.com/corneltek/LazyRecord), [Illuminate Database](https://github.com/illuminate/database) (Laravel 的 Eloquent 獨立版本)，或是考慮挑一個 PHP Framework 使用內建的 ORM 如 [Laravel](https://laravel.com/)
